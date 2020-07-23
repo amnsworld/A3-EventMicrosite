@@ -52,7 +52,7 @@ p{
 /* https://www.google.com/search?q=garba+event&tbm=isch&ved=2ahUKEwj2wMCght3qAhXDJ6wKHRN1BjwQ2-cCegQIABAA&oq=garba+event&gs_lcp=CgNpbWcQA1D7ti5Yv8MuYOXELmgAcAB4AIABAIgBAJIBAJgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=czEWX7a7HMPPsAWT6pngAw&bih=674&biw=1519&rlz=1C1CHBF_enCA883CA883&hl=en&hl=en#imgrc=CHP21cktHC8qpM&imgdii=C0baZL7eSc0nMM */
 .head{
     background: radial-gradient(circle, rgba(192,33,62,0.30885857761073177) 0%, rgba(192,33,62,0.4797269249496674) 100%),
-                url(/img/dandiya-night.jpg);
+                url(../img/dandiya-night.jpg);
     height: 40em;
     background-repeat: round;
     background-size: cover;
