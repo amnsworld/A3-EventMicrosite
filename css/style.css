@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap');
+
+
+/*Common classes*/
+body{
+    font-family: 'Nanum Gothic', sans-serif;
+    background-color:#eaeded !important;
+    }
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    }
+.column{
+    display: flex;
+    flex-direction: column;
+    }
+
+.center{
+    text-align: center;
+    }
+
+.display-none{
+    display: none;
+    }
+.center{ 
+    text-align: center;
+    }
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Crimson Text', serif;
+}
+
+p{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.errormsgs{
+    font-size: 0.9rem;
+    color: red;
+}
+
+.active{
+    border-color: red;
+    box-shadow: 0 0 0 1px red;
+}
+.section-heading{ 
+    color: #C0213E; 
+    font-size: 2em; 
+    margin-bottom: 1em;
+}
+/*head*/
+/* https://www.google.com/search?q=garba+event&tbm=isch&ved=2ahUKEwj2wMCght3qAhXDJ6wKHRN1BjwQ2-cCegQIABAA&oq=garba+event&gs_lcp=CgNpbWcQA1D7ti5Yv8MuYOXELmgAcAB4AIABAIgBAJIBAJgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=czEWX7a7HMPPsAWT6pngAw&bih=674&biw=1519&rlz=1C1CHBF_enCA883CA883&hl=en&hl=en#imgrc=CHP21cktHC8qpM&imgdii=C0baZL7eSc0nMM */
+.head{
+    background: radial-gradient(circle, rgba(192,33,62,0.30885857761073177) 0%, rgba(192,33,62,0.4797269249496674) 100%),
+                url(/img/dandiya-night.jpg);
+    height: 40em;
+    background-repeat: round;
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 89%, 50% 100%, 0 91%);
+
+    }
+.navigation-menu{ 
+    background:rgba(255, 255, 255, 0.65);
+    padding: 1em;
+
+    max-width: 70em;
+    margin: 0 auto;
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+}
+.website-name { 
+    color: #C0213E; 
+}
+.navigation-list{ 
+    margin-left: auto;
+    }
+
+.nav-items{
+    padding: 1em;
+    }
+
+.nav-item-links {
+    color:#000000;
+    text-decoration: none;
+    font-size: 1.3em;
+    }
+
+.nav-item-links:hover{
+    color:#C0213E;
+    }
+.hamburger-mobile-view{ 
+    width: 1.5em;
+    display: none;
+}
+.nav-click{
+    flex-wrap: nowrap; 
+}
+.nav-list-onclick{ 
+    display: inline !important; 
+    margin-left: 3em; 
+    padding-top: 4em;
+}
+
+.main{ 
+    max-width: 70em;
+    margin: 0 auto;
+    margin-top: 3em;
+}
+
+/*category*/
+.category{ 
+    padding: 2em;
+}
+
+.cat_section,.best_seller_section, .prod_section{
+    max-width: 90em;
+    margin: 2em auto;
+    padding: 2em;
+}
+
+.cat,.best-seller-product{
+    flex-basis: calc(95% / 4);
+    margin-bottom: 2em;
+}
+.cat img, .prod-img-container img { 
+    width:100%;
+    height: 15em;
+    border-radius: 0.5em;
+}
+
+/*event-profile page*/
+.garba-img-container { 
+    flex: 1; 
+    padding: 1em;
+}
+.garba-location { 
+    flex:1; 
+    align-self: center;  
+    padding: 1em;
+}
+.garba-img{ 
+    border-radius: 7px;
+}
+.buy-ticket-btn{
+    padding: 1em 3em;
+    border: 0;
+    background-color: #C0213E;
+    color:white;
+    margin: 2em 0;
+ }
+/*Form*/
+.form{
+    padding: 1em;
+    border-radius: 0.5em;
+    }
+.input input{
+    width: 100%;
+    padding: 1em;
+    margin: .3em 0 1em 0;
+    border-radius: .2em;
+    border: 1px solid #b9b9b9;
+
+    }
+
+.submit-button{
+    padding: 1em 2em;
+    border: none !important;
+    border-radius: .3em;
+    background-color: #C0213E;
+    color:#ffffff; 
+    margin: 2em 0;
+    }
+span.forgot-password {
+    float: right;
+    }
+
+.forgot-password{
+    color: #04A3DF;
+    }
+
+/* Registration */
+
+.termscondtion, .already-account {
+    font-size: 0.8em;
+    margin-top: 1em;
+}
+
+/*footer*/
+.footer{ 
+    background: #fff; 
+    padding: 3em 10em;
+    }   
+
+.navigation-list-footer{
+    font-size: .8em;
+    }
+.social-media-logo-row{ 
+    width: 15em; 
+    margin: 0 auto;  
+    margin-bottom: 2em;
+    }
+
+.social-media-logo-img{ 
+    height: 1.5em; 
+    width: 1.5em;
+    }

@@ -1,0 +1,115 @@
+@media only screen and (max-width: 1150px) {
+    .amazon-logo{ 
+      width: 4em; 
+      max-height: 2em; 
+    }
+  }
+  @media only screen and (max-width: 1012px) {
+    .amazon-logo{ 
+      width: 5em; 
+      max-height: 2em; 
+    }
+    .cat,.best-seller-product{
+      flex-basis: calc(95% / 3);
+    }
+  }
+  
+  @media only screen and (max-width: 769px) {
+    .navigation-list{ 
+      display: none;
+    }
+    .hamburger-mobile-view{ 
+      display: block;
+    }
+    .cat,.best-seller-product, .product{
+      flex-basis: calc(95% / 2);
+    }
+    
+    .amazon-logo{ 
+      width: 3em; 
+      max-height: 2em; 
+    }
+   
+    .footer{ 
+      padding: 3em;
+      display: block;
+    }   
+    
+    .social-media-logo-row{ 
+        width: 70%; 
+        margin: 0 auto;  
+        margin-bottom: 2em;
+    }
+    .navigation-list-footer{ 
+      display: none;
+    }
+  }
+  
+  @media only screen and (max-width: 690px) {
+    .promotion img{
+        height: 20em;
+      }
+    
+    .amazon-logo{ 
+      width: 3em; 
+      max-height: 2em; 
+    }
+   
+    .footer{ 
+      padding: 3em;
+      display: block;
+    }   
+    
+    .social-media-logo-row{ 
+        width: 70%; 
+        margin: 0 auto;  
+        margin-bottom: 2em;
+    }
+    .navigation-list-footer{ 
+      display: none;
+    }
+  }
+  
+  @media only screen and (max-width: 450px) {
+    /* .head{
+      background-repeat: round !important;
+    } */
+    .garba-detail{ 
+      display: block;
+    }
+    .promotion img{
+        height: 20em;
+      }
+    
+    .amazon-logo{ 
+      width: 3em; 
+      max-height: 2em; 
+    }
+    .cat,.best-seller-product, .product{
+      flex-basis: 100% ;
+    }
+    .footer{ 
+      padding: 3em;
+      display: block;
+    }   
+    
+    .social-media-logo-row{ 
+        width: 70%; 
+        margin: 0 auto;  
+        margin-bottom: 2em;
+    }
+  
+  
+    .navigation-list-footer{ 
+      display: none;
+    }
+  }
+  
+  @media only screen and (max-width: 376px) {
+    /* .head{
+      background-repeat: round !important;
+    } */
+    .promotion img{
+        height: 15em;
+    }
+  }
